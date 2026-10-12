@@ -1,0 +1,176 @@
+// Català
+export default {
+  meta: {
+    title: 'UnderControl · Els teus comptes, sota control',
+    description: 'UnderControl troba les teves factures al correu i al banc, llegeix els teus tiquets amb IA, prepara els esborranys del 303 i el 130, emet factures VeriFactu i ho deixa tot a punt per al teu gestor.',
+  },
+  titles: { legal: 'Avís legal', privacy: 'Política de privacitat', cookies: 'Política de galetes', notFound: 'Pàgina no trobada' },
+  nav: {
+    product: 'Producte', how: 'Com funciona', freelancers: 'Autònoms', security: 'Seguretat', faq: 'Preguntes',
+    cta: 'Sol·licitar accés', menuOpen: 'Obrir el menú', menuClose: 'Tancar el menú', main: 'Principal', mobile: 'Menú mòbil',
+    skip: 'Vés al contingut', home: 'UnderControl, inici', language: 'Idioma', changeLanguage: 'Canviar d’idioma',
+  },
+  hero: {
+    eyebrow: 'Despeses · Impostos · Administració',
+    h1: ['Els teus comptes, ', 'sota control', '.'],
+    lead: 'UnderControl troba les teves factures al correu i al banc, llegeix els teus tiquets amb IA, prepara els esborranys del 303 i el 130 i ho deixa tot a punt per al teu gestor.',
+    cta: 'Sol·licitar accés anticipat', secondary: 'Veure com funciona',
+    meta: ['iOS i Android', 'Preparat per a VeriFactu'],
+  },
+  mock: {
+    aria: 'Vista prèvia de l’app UnderControl amb dades d’exemple',
+    month: 'Diners · Octubre', result: 'Resultat del mes', balance: '+1.284,60 €', inc: '▲ 3.920,00 €', exp: '▼ 2.635,40 €',
+    movements: 'Moviments', seeAll: 'Veure-ho tot',
+    tx: [
+      { name: 'Factura F2026-0042', sub: 'Client', tag: 'VeriFactu', amt: '+1.452,00' },
+      { name: 'Mercado La Encina', sub: 'Tiquet · IA', amt: '−60,50' },
+      { name: 'Estació de servei', sub: 'Banc · conciliat', amt: '−72,18' },
+      { name: 'Subministrament elèctric', sub: 'Correu · recurrent', amt: '−48,90' },
+    ],
+    tabs: ['Inici', 'Anàlisi', 'Admin.', 'Escanejar'],
+    ticket: { label: 'Tiquet llegit', rows: [['Base', '50,00'], ['IVA 21 %', '10,50']], total: ['Total', '60,50 €'] },
+    tax: { label: 'Esborrany 303 · 3T', value: '412,30 €', hint: 'A ingressar · termini fins al 20 d’oct.' },
+  },
+  strip: {
+    label: 'Es connecta amb el que ja fas servir', aria: 'Integracions',
+    items: ['Gmail', 'El teu banc (PSD2)', 'Agència Tributària', 'VeriFactu', 'DEHú', 'DGT', 'Seguretat Social', 'a3', 'Sage 50', 'ContaSol'],
+  },
+  areas: {
+    eyebrow: 'El producte',
+    title: 'Tres àrees. Una sola app per a tot el que té a veure amb els teus diners.',
+    lead: 'Des del tiquet del supermercat fins a la notificació d’Hisenda: cada cosa al seu lloc i amb context.',
+    items: [
+      { title: 'Diners', text: 'Ingressos i despeses en un sol lloc, sense teclejar: arriben sols del correu, del banc i dels teus tiquets.',
+        items: ['Factures detectades a la teva bústia amb les teves pròpies regles', 'Moviments del banc conciliats amb el seu justificant', 'Categories detallades, grups i adjunts'] },
+      { title: 'Administració', text: 'El que t’arriba d’Hisenda, la Seguretat Social o la DGT, endreçat i amb avisos abans de cada termini.',
+        items: ['Notificacions DEHú, e-NOTUM i DGT amb el teu certificat', 'Els models que et toquen i si consten presentats', 'Regles que classifiquen i t’avisen per push'] },
+      { title: 'Assistent', text: 'Pregunta en llenguatge natural pels teus números o per una notificació i rep una resposta clara.',
+        items: ['Resums i conclusions de les teves despeses', 'Explicació de notificacions oficials', 'Converses desades al teu compte'] },
+    ],
+  },
+  steps: {
+    eyebrow: 'Com funciona', title: 'Configura-ho una vegada. Després, només revisa.',
+    items: [
+      { title: 'Connecta', text: 'Afegeix la teva bústia de Gmail amb accés segur i, si vols, el teu banc. Defineix regles com «remitent conté proveidor.com».' },
+      { title: 'Revisa', text: 'Les factures i els càrrecs entren sols. Fes una foto d’un tiquet i la IA llegeix bases, IVA, data i proveïdor per tu.' },
+      { title: 'Decideix', text: 'Mira quant et toca pagar, comparteix un resum o envia al teu gestor un ZIP amb llibres, assentaments i justificants.' },
+    ],
+  },
+  freelancer: {
+    eyebrow: 'Per a autònoms',
+    title: 'Sàpigues quant et toca pagar abans que s’acabi el trimestre.',
+    lead: 'Els moviments que ja tens a l’app alimenten els teus esborranys, les teves factures i la documentació per al teu gestor.',
+    items: [
+      { title: 'Esborranys del 303 i el 130', text: 'IVA repercutit i suportat per tipus, pagaments fraccionats i retencions, amb les caselles i els moviments que hi entren.' },
+      { title: 'Factures VeriFactu', text: 'Sèries correlatives, empremta encadenada, QR i enviament a l’AEAT amb el teu certificat. Rectificatives i anul·lacions incloses.' },
+      { title: 'Exportació per al teu gestor', text: 'Llibres d’IVA, assentaments amb comptes del PGC i fitxer per a a3, Sage 50 o ContaSol, amb els justificants.' },
+      { title: 'Deduïbilitat al teu criteri', text: 'Tu decideixes quina part de cada despesa és deduïble, amb regles per proveïdor, tipus o import.' },
+    ],
+    receipt: {
+      aria: 'Exemple d’esborrany del model 303 del tercer trimestre amb un resultat a ingressar de 412,30 euros',
+      title: 'MODEL 303 · 3T 2026', sub: 'Esborrany · IVA règim general',
+      rows: [
+        ['IVA repercutit', '1.218,00'], ['21 % · 5.800,00', '1.218,00', 'sub'],
+        ['IVA suportat deduïble', '−805,70'], ['21 % · 3.420,00', '−718,20', 'sub'], ['10 % · 875,00', '−87,50', 'sub'],
+      ],
+      total: ['A ingressar', '412,30 €'],
+      chips: ['38 moviments', '2 sense justificant', 'Termini: 20/10'],
+    },
+  },
+  features: {
+    eyebrow: 'Funcions', title: 'La feina feixuga la fa l’app.', lead: 'Tot el que abans era copiar imports, buscar correus i perseguir tiquets.',
+    items: [
+      { title: 'Factures des del correu', text: 'Regles per bústia (remitent, assumpte o cos) que troben les teves factures sense que obris ni un correu.' },
+      { title: 'Escàner de tiquets amb IA', text: 'Llegeix fins a quatre bases imposables, data i hora. També el QR VeriFactu, que es verifica amb l’AEAT.' },
+      { title: 'Conciliació bancària', text: 'Cada càrrec del banc amb el seu tiquet o factura, sense duplicar despeses. Si la parella és segura, s’uneix sola.' },
+      { title: 'Anàlisi i alertes', text: 'Evolució, rebuts recurrents, pujades de preu, possibles duplicats i estalvi potencial a l’any.' },
+      { title: 'Enviaments programats', text: 'Un resum d’ingressos i despeses cada setmana, mes o trimestre, a l’hora que triïs i a qui triïs.' },
+      { title: 'Compartir amb enllaç', text: 'Enllaços amb caducitat i accés per codi al correu. Veus qui hi ha entrat i pots retirar l’accés.' },
+      { title: 'Notificacions oficials', text: 'DEHú, e-NOTUM i DGT a l’app, amb documents, prioritat i regles que classifiquen per tu.' },
+      { title: 'Avisos de terminis', text: 'T’avisem a 10, 5, 3 i 1 dia de la fi del termini de cada model que et correspon.' },
+    ],
+  },
+  audience: {
+    eyebrow: 'Per a qui', title: 'Per a qualsevol que vulgui tenir els comptes clars.',
+    items: [
+      { tag: 'Particulars', title: 'Les despeses de casa, sense fulls de càlcul', text: 'Rebuts, subscripcions i compres endreçats sols. Veus on van els diners i quin rebut ha pujat.', quote: '«Falta el rebut de la llum de setembre»' },
+      { tag: 'Autònoms', title: 'Els teus trimestres, sense sorpreses', text: 'Saps cada dia quant et tocarà pagar, emets factures VeriFactu i dones al gestor tot quadrat.', quote: '«Model 130 · 3T · a ingressar 286,40 €»' },
+      { tag: 'Pimes i gestories', title: 'Documentació que arriba completa', text: 'Justificants units a cada càrrec i exportació directa al programa comptable que ja feu servir.', quote: '«SUENLACE.DAT generat · 148 assentaments»' },
+    ],
+  },
+  security: {
+    eyebrow: 'Seguretat', title: 'Les teves dades financeres mereixen la mateixa cura que els teus diners.',
+    lead: 'Accés delegat, xifratge i control total sobre el que comparteixes i amb qui.',
+    items: [
+      { title: 'Sense contrasenyes de correu', text: 'La connexió amb Gmail fa servir OAuth 2.0: ens dones permís des de Google i el pots retirar quan vulguis. No desem mai la teva contrasenya.' },
+      { title: 'Certificat digital xifrat', text: 'El certificat que fas servir per a l’Administració es desa xifrat i només s’usa per a les consultes i enviaments que tu inicies o configures.' },
+      { title: 'Enllaços amb verificació', text: 'Cada enllaç compartit exigeix confirmar un correu amb un codi de 6 xifres, caduca i queda registrat qui l’ha obert.' },
+      { title: 'IA amb dades agregades', text: 'Per a l’anàlisi amb IA només s’envien totals i agregats, mai la llista dels teus moviments.' },
+    ],
+  },
+  faq: {
+    eyebrow: 'Preguntes freqüents', title: 'El que més ens pregunten.', lead: 'No trobes la resposta? Escriu-nos a {email}.',
+    items: [
+      { q: 'Quan estarà disponible l’app?', a: 'UnderControl és en fase d’accés anticipat per a iOS i Android. Deixa’ns les teves dades al formulari i t’avisarem tan aviat com la puguis instal·lar.' },
+      { q: 'Cal ser autònom per fer-la servir?', a: 'No. UnderControl està pensada per a qualsevol persona que vulgui tenir els comptes clars. Les funcions d’impostos i facturació només s’activen si indiques que ets autònom/a.' },
+      { q: 'Substitueix el meu gestor?', a: 'No, li estalvia feina. Els esborranys del 303 i el 130 et donen una estimació fiable i l’exportació lliura al teu gestor llibres, assentaments i justificants a punt per importar a a3, Sage 50 o ContaSol.' },
+      { q: 'Quins bancs i correus puc connectar?', a: 'Avui, bústies de Gmail amb regles pròpies. La connexió bancària es fa a través d’un agregador regulat per la PSD2. Outlook i IMAP genèric estan previstos.' },
+      { q: 'Per a què necessito el certificat digital?', a: 'Només per a l’àrea d’Administració: consultar notificacions de la DEHú i la DGT, comprovar els models presentats i enviar factures VeriFactu a l’AEAT. La resta de l’app funciona sense.' },
+      { q: 'En quins idiomes està?', a: 'En castellà, anglès, portuguès i català. L’idioma es desa al teu compte i el pots canviar quan vulguis.' },
+    ],
+  },
+  contact: {
+    eyebrow: 'Accés anticipat', title: 'Posa els teus comptes sota control.',
+    lead: 'Deixa’ns les teves dades i t’avisarem tan aviat com UnderControl estigui disponible. Si ets una gestoria o una empresa, explica’ns què necessites.',
+  },
+  form: {
+    name: 'Nom', email: 'Correu electrònic', profile: 'T’interessa com a', company: 'Empresa', message: 'Missatge', optional: '(opcional)',
+    profiles: { particular: 'Particular', autonomo: 'Autònom/a', empresa: 'Pime', gestoria: 'Gestoria o assessoria', otro: 'Altres' },
+    placeholder: 'Explica’ns què t’agradaria controlar millor.', honeypot: 'No omplis aquest camp',
+    consent: ['He llegit la ', 'política de privacitat', ' i accepto que UnderControl faci servir aquestes dades per respondre’m.'],
+    errors: { name: 'Indica el teu nom.', email: 'Escriu un correu vàlid, per exemple nom@domini.cat.', consent: 'Necessitem el teu consentiment per respondre’t.' },
+    ok: 'Gràcies. Hem rebut el teu missatge i t’escriurem aviat.',
+    err: 'No s’ha pogut enviar. Torna-ho a provar d’aquí a uns minuts o escriu-nos a {email}.',
+    sending: 'Enviant…', submit: 'Enviar sol·licitud',
+  },
+  footer: {
+    about: 'Despeses, ingressos, impostos i tràmits amb l’Administració en una sola app.',
+    product: 'Producte', company: 'Empresa', legal: 'Legal',
+    links: { areas: 'Àrees de l’app', features: 'Funcions', freelancers: 'Per a autònoms', security: 'Seguretat', contact: 'Contacte', faq: 'Preguntes freqüents' },
+    made: 'Fet a Espanya',
+  },
+  notFound: { code: 'ERROR 404 · PÀGINA NO TROBADA', title: 'Això no quadra.', back: 'Tornar a l’inici' },
+  legal: {
+    eyebrow: 'Legal', updated: 'Darrera actualització: 12 d’octubre de 2026',
+    notice: 'Aquesta traducció s’ofereix per comoditat. En cas de discrepància, preval la versió en castellà.',
+    holder: { legalName: 'Titular', nif: 'NIF/CIF', address: 'Domicili', registry: 'Dades registrals', email: 'Correu electrònic' },
+    legal: [
+      { h: '1. Titular del lloc web', p: ['En compliment de l’article 10 de la Llei 34/2002, de serveis de la societat de la informació i de comerç electrònic (LSSI-CE), s’informa de les dades del titular de {domain}:'], holder: true },
+      { h: '2. Objecte', p: ['Aquest lloc web informa sobre l’aplicació UnderControl i permet sol·licitar informació o accés anticipat. L’accés al lloc és gratuït i atribueix la condició d’usuari, que accepta aquest avís legal.'] },
+      { h: '3. Propietat intel·lectual i industrial', p: ['Els continguts, marques, logotips, disseny i codi d’aquest lloc pertanyen al seu titular o disposen de llicència per al seu ús. En queda prohibida la reproducció, distribució o transformació sense autorització expressa.'] },
+      { h: '4. Responsabilitat', p: ['El titular no es fa responsable del mal ús dels continguts ni dels danys derivats d’interrupcions tècniques. Les xifres i pantalles mostrades són exemples il·lustratius i no constitueixen assessorament fiscal. Els enllaços a llocs de tercers s’ofereixen només a títol informatiu.'] },
+      { h: '5. Legislació aplicable', p: ['Aquest avís legal es regeix per la legislació espanyola. Per a qualsevol controvèrsia, les parts se sotmeten als jutjats i tribunals que corresponguin d’acord amb la normativa aplicable.'] },
+    ],
+    privacy: [
+      { p: ['Aquesta política explica com tractem les dades personals que ens facilites a través de {domain}, d’acord amb el Reglament (UE) 2016/679 (RGPD) i la Llei orgànica 3/2018 (LOPDGDD). El tractament de dades dins l’app es regeix per la seva pròpia política, que acceptaràs en crear el teu compte.'] },
+      { h: '1. Responsable del tractament', controller: true },
+      { h: '2. Quines dades tractem i per a què', table: {
+        head: ['Origen', 'Dades', 'Finalitat', 'Base jurídica'],
+        rows: [
+          ['Formulari de contacte', 'Nom, correu, perfil, empresa i missatge', 'Respondre la teva sol·licitud i avisar-te de l’accés anticipat', 'Consentiment (art. 6.1.a RGPD)'],
+          ['Correu directe', 'Les que ens enviïs', 'Atendre la teva consulta', 'Consentiment / interès legítim'],
+          ['Registres del servidor', 'Adreça IP, data i hora', 'Seguretat i funcionament del lloc', 'Interès legítim (art. 6.1.f RGPD)'],
+        ] } },
+      { h: '3. Conservació', p: ['Conservem les dades del formulari mentre duri la relació o fins que en demanis la supressió i, després, durant els terminis legals de prescripció. Els registres del servidor es conserven el temps mínim que fixa el proveïdor d’allotjament.'] },
+      { h: '4. Destinataris', p: ['No cedim les teves dades a tercers llevat d’obligació legal. El lloc s’allotja a Hostinger, que actua com a encarregat del tractament amb les garanties del RGPD.'] },
+      { h: '5. Els teus drets', p: ['Pots exercir els drets d’accés, rectificació, supressió, oposició, limitació i portabilitat, i retirar el teu consentiment en qualsevol moment, escrivint a {email}. Si consideres que no hem atès bé la teva sol·licitud, pots reclamar davant l’Agència Espanyola de Protecció de Dades (www.aepd.es).'] },
+      { h: '6. Seguretat', p: ['Apliquem mesures tècniques i organitzatives adequades, com el xifratge HTTPS a tot el lloc.'] },
+    ],
+    cookies: [
+      { p: ['{domain} no fa servir galetes d’anàlisi, publicitat ni de tercers. Les fonts tipogràfiques se serveixen des del nostre propi servidor, sense connexions a serveis externs.'] },
+      { h: 'Galetes tècniques', p: ['El servidor d’allotjament pot fer servir galetes estrictament necessàries per a la seguretat i el bon funcionament del lloc. Aquestes galetes estan exemptes de consentiment segons l’article 22.2 de la LSSI-CE.'] },
+      { h: 'Canvis', p: ['Si en el futur incorporem galetes que requereixin consentiment, actualitzarem aquesta política i et demanarem permís abans d’instal·lar-les.'] },
+      { more: ['Més informació a la ', 'política de privacitat', '.'] },
+    ],
+  },
+}

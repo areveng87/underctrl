@@ -1,0 +1,175 @@
+// Español (idioma por defecto). Las demás traducciones siguen esta misma estructura.
+export default {
+  meta: {
+    title: 'UnderControl · Tus cuentas, bajo control',
+    description: 'UnderControl detecta tus facturas en el correo y el banco, lee tus tickets con IA, prepara los borradores del 303 y el 130, emite facturas VeriFactu y lo deja todo listo para tu gestor.',
+  },
+  titles: { legal: 'Aviso legal', privacy: 'Política de privacidad', cookies: 'Política de cookies', notFound: 'Página no encontrada' },
+  nav: {
+    product: 'Producto', how: 'Cómo funciona', freelancers: 'Autónomos', security: 'Seguridad', faq: 'Preguntas',
+    cta: 'Solicitar acceso', menuOpen: 'Abrir menú', menuClose: 'Cerrar menú', main: 'Principal', mobile: 'Menú móvil',
+    skip: 'Saltar al contenido', home: 'UnderControl, inicio', language: 'Idioma', changeLanguage: 'Cambiar idioma',
+  },
+  hero: {
+    eyebrow: 'Gastos · Impuestos · Administración',
+    h1: ['Tus cuentas, ', 'bajo control', '.'],
+    lead: 'UnderControl encuentra tus facturas en el correo y el banco, lee tus tickets con IA, prepara los borradores del 303 y el 130 y lo deja todo listo para tu gestor.',
+    cta: 'Solicitar acceso anticipado', secondary: 'Ver cómo funciona',
+    meta: ['iOS y Android', 'Preparado para VeriFactu'],
+  },
+  mock: {
+    aria: 'Vista previa de la app UnderControl con datos de ejemplo',
+    month: 'Dinero · Octubre', result: 'Resultado del mes', balance: '+1.284,60 €', inc: '▲ 3.920,00 €', exp: '▼ 2.635,40 €',
+    movements: 'Movimientos', seeAll: 'Ver todo',
+    tx: [
+      { name: 'Factura F2026-0042', sub: 'Cliente', tag: 'VeriFactu', amt: '+1.452,00' },
+      { name: 'Mercado La Encina', sub: 'Ticket · IA', amt: '−60,50' },
+      { name: 'Estación de servicio', sub: 'Banco · conciliado', amt: '−72,18' },
+      { name: 'Suministro eléctrico', sub: 'Correo · recurrente', amt: '−48,90' },
+    ],
+    tabs: ['Inicio', 'Análisis', 'Admin.', 'Escanear'],
+    ticket: { label: 'Ticket leído', rows: [['Base', '50,00'], ['IVA 21 %', '10,50']], total: ['Total', '60,50 €'] },
+    tax: { label: 'Borrador 303 · 3T', value: '412,30 €', hint: 'A ingresar · plazo hasta el 20 oct.' },
+  },
+  strip: {
+    label: 'Se conecta con lo que ya usas', aria: 'Integraciones',
+    items: ['Gmail', 'Tu banco (PSD2)', 'Agencia Tributaria', 'VeriFactu', 'DEHú', 'DGT', 'Seguridad Social', 'a3', 'Sage 50', 'ContaSol'],
+  },
+  areas: {
+    eyebrow: 'El producto',
+    title: 'Tres áreas. Una sola app para todo lo que tiene que ver con tu dinero.',
+    lead: 'Desde el ticket del supermercado hasta la notificación de Hacienda: cada cosa en su sitio y con contexto.',
+    items: [
+      { title: 'Dinero', text: 'Ingresos y gastos en un solo sitio, sin teclear: llegan solos del correo, del banco y de tus tickets.',
+        items: ['Facturas detectadas en tu buzón con tus propias reglas', 'Movimientos del banco conciliados con su justificante', 'Categorías detalladas, grupos y adjuntos'] },
+      { title: 'Administración', text: 'Lo que te llega de Hacienda, la Seguridad Social o la DGT, ordenado y con avisos antes de cada plazo.',
+        items: ['Notificaciones DEHú, e-NOTUM y DGT con tu certificado', 'Modelos que te tocan y si constan presentados', 'Reglas que clasifican y te avisan por push'] },
+      { title: 'Asistente', text: 'Pregunta en lenguaje natural por tus números o por una notificación y recibe una respuesta clara.',
+        items: ['Resúmenes y conclusiones de tus gastos', 'Explicación de notificaciones oficiales', 'Conversaciones guardadas en tu cuenta'] },
+    ],
+  },
+  steps: {
+    eyebrow: 'Cómo funciona', title: 'Configúralo una vez. Después, solo revisa.',
+    items: [
+      { title: 'Conecta', text: 'Añade tu buzón de Gmail con acceso seguro y, si quieres, tu banco. Define reglas como «remitente contiene proveedor.com».' },
+      { title: 'Revisa', text: 'Las facturas y los cargos entran solos. Fotografía un ticket y la IA lee bases, IVA, fecha y proveedor por ti.' },
+      { title: 'Decide', text: 'Mira cuánto te toca pagar, comparte un resumen o manda a tu gestor un ZIP con libros, asientos y justificantes.' },
+    ],
+  },
+  freelancer: {
+    eyebrow: 'Para autónomos',
+    title: 'Sabe cuánto te toca pagar antes de que acabe el trimestre.',
+    lead: 'Los movimientos que ya tienes en la app alimentan tus borradores, tus facturas y la documentación para tu gestor.',
+    items: [
+      { title: 'Borradores del 303 y el 130', text: 'IVA repercutido y soportado por tipo, pagos fraccionados y retenciones, con las casillas y los movimientos que entran.' },
+      { title: 'Facturas VeriFactu', text: 'Series correlativas, huella encadenada, QR y envío a la AEAT con tu certificado. Rectificativas y anulaciones incluidas.' },
+      { title: 'Exportación para tu gestor', text: 'Libros de IVA, asientos con cuentas del PGC y fichero para a3, Sage 50 o ContaSol, con los justificantes.' },
+      { title: 'Deducibilidad bajo tu criterio', text: 'Tú decides qué parte de cada gasto es deducible, con reglas por proveedor, tipo o importe.' },
+    ],
+    receipt: {
+      aria: 'Ejemplo de borrador del modelo 303 del tercer trimestre con resultado a ingresar de 412,30 euros',
+      title: 'MODELO 303 · 3T 2026', sub: 'Borrador · IVA régimen general',
+      rows: [
+        ['IVA repercutido', '1.218,00'], ['21 % · 5.800,00', '1.218,00', 'sub'],
+        ['IVA soportado deducible', '−805,70'], ['21 % · 3.420,00', '−718,20', 'sub'], ['10 % · 875,00', '−87,50', 'sub'],
+      ],
+      total: ['A ingresar', '412,30 €'],
+      chips: ['38 movimientos', '2 sin justificante', 'Plazo: 20/10'],
+    },
+  },
+  features: {
+    eyebrow: 'Funciones', title: 'El trabajo pesado lo hace la app.', lead: 'Todo lo que antes era copiar importes, buscar emails y perseguir tickets.',
+    items: [
+      { title: 'Facturas desde el correo', text: 'Reglas por buzón (remitente, asunto o cuerpo) que encuentran tus facturas sin que abras un solo email.' },
+      { title: 'Escáner de tickets con IA', text: 'Lee hasta cuatro bases imponibles, fecha y hora. También el QR VeriFactu, que se verifica con la AEAT.' },
+      { title: 'Conciliación bancaria', text: 'Cada cargo del banco con su ticket o factura, sin duplicar gastos. Si la pareja es segura, se une sola.' },
+      { title: 'Análisis y alertas', text: 'Evolución, recibos recurrentes, subidas de precio, posibles duplicados y ahorro potencial al año.' },
+      { title: 'Envíos programados', text: 'Un resumen de ingresos y gastos cada semana, mes o trimestre, a la hora que elijas y a quien elijas.' },
+      { title: 'Compartir con enlace', text: 'Enlaces con caducidad y acceso por código al email. Ves quién ha entrado y puedes retirar el acceso.' },
+      { title: 'Notificaciones oficiales', text: 'DEHú, e-NOTUM y DGT en la app, con documentos, prioridad y reglas que clasifican por ti.' },
+      { title: 'Avisos de plazos', text: 'Te avisamos a 10, 5, 3 y 1 día del fin de plazo de cada modelo que te corresponde.' },
+    ],
+  },
+  audience: {
+    eyebrow: 'Para quién', title: 'Para cualquiera que quiera tener sus cuentas claras.',
+    items: [
+      { tag: 'Particulares', title: 'Tus gastos de casa, sin hojas de cálculo', text: 'Recibos, suscripciones y compras ordenados solos. Ves en qué se va el dinero y qué recibo ha subido.', quote: '«Falta el recibo de la luz de septiembre»' },
+      { tag: 'Autónomos', title: 'Tus trimestres, sin sorpresas', text: 'Sabes cada día cuánto te tocará pagar, emites facturas VeriFactu y le das al gestor todo cuadrado.', quote: '«Modelo 130 · 3T · a ingresar 286,40 €»' },
+      { tag: 'Pymes y gestorías', title: 'Documentación que llega completa', text: 'Justificantes unidos a cada cargo y exportación directa al programa contable que ya usáis.', quote: '«SUENLACE.DAT generado · 148 asientos»' },
+    ],
+  },
+  security: {
+    eyebrow: 'Seguridad', title: 'Tus datos financieros merecen el mismo cuidado que tu dinero.',
+    lead: 'Acceso delegado, cifrado y control total sobre lo que compartes y con quién.',
+    items: [
+      { title: 'Sin contraseñas de correo', text: 'La conexión con Gmail usa OAuth 2.0: nos das permiso desde Google y puedes retirarlo cuando quieras. Nunca guardamos tu contraseña.' },
+      { title: 'Certificado digital cifrado', text: 'El certificado que usas para la Administración se guarda cifrado y solo se usa para las consultas y envíos que tú inicias o configuras.' },
+      { title: 'Enlaces con verificación', text: 'Cada enlace compartido exige confirmar un email con un código de 6 cifras, caduca y queda registrado quién lo ha abierto.' },
+      { title: 'IA con datos agregados', text: 'Para el análisis con IA solo se envían totales y agregados, nunca la lista de tus movimientos.' },
+    ],
+  },
+  faq: {
+    eyebrow: 'Preguntas frecuentes', title: 'Lo que más nos preguntan.', lead: '¿No encuentras la respuesta? Escríbenos a {email}.',
+    items: [
+      { q: '¿Cuándo estará disponible la app?', a: 'UnderControl está en fase de acceso anticipado para iOS y Android. Déjanos tus datos en el formulario y te avisaremos en cuanto puedas instalarla.' },
+      { q: '¿Necesito ser autónomo para usarla?', a: 'No. UnderControl está pensada para cualquier persona que quiera tener sus cuentas claras. Las funciones de impuestos y facturación se activan solo si indicas que eres autónomo/a.' },
+      { q: '¿Sustituye a mi gestor?', a: 'No, le ahorra trabajo. Los borradores del 303 y el 130 te dan una estimación fiable y la exportación entrega a tu gestor libros, asientos y justificantes listos para importar en a3, Sage 50 o ContaSol.' },
+      { q: '¿Qué bancos y correos puedo conectar?', a: 'Hoy, buzones de Gmail con reglas propias. La conexión bancaria se hace a través de un agregador regulado bajo PSD2. Outlook e IMAP genérico están previstos.' },
+      { q: '¿Para qué necesito el certificado digital?', a: 'Solo para el área de Administración: consultar notificaciones de la DEHú y la DGT, comprobar los modelos presentados y enviar facturas VeriFactu a la AEAT. El resto de la app funciona sin él.' },
+      { q: '¿En qué idiomas está?', a: 'En español, inglés, portugués y catalán. El idioma se guarda en tu cuenta y lo puedes cambiar cuando quieras.' },
+    ],
+  },
+  contact: {
+    eyebrow: 'Acceso anticipado', title: 'Pon tus cuentas bajo control.',
+    lead: 'Déjanos tus datos y te avisaremos en cuanto UnderControl esté disponible. Si eres gestoría o empresa, cuéntanos qué necesitas.',
+  },
+  form: {
+    name: 'Nombre', email: 'Email', profile: 'Te interesa como', company: 'Empresa', message: 'Mensaje', optional: '(opcional)',
+    profiles: { particular: 'Particular', autonomo: 'Autónomo/a', empresa: 'Pyme', gestoria: 'Gestoría o asesoría', otro: 'Otro' },
+    placeholder: 'Cuéntanos qué te gustaría controlar mejor.', honeypot: 'No rellenes este campo',
+    consent: ['He leído la ', 'política de privacidad', ' y acepto que UnderControl use estos datos para responderme.'],
+    errors: { name: 'Indica tu nombre.', email: 'Escribe un email válido, por ejemplo nombre@dominio.es.', consent: 'Necesitamos tu consentimiento para responderte.' },
+    ok: 'Gracias. Hemos recibido tu mensaje y te escribiremos pronto.',
+    err: 'No se ha podido enviar. Inténtalo de nuevo en unos minutos o escríbenos a {email}.',
+    sending: 'Enviando…', submit: 'Enviar solicitud',
+  },
+  footer: {
+    about: 'Gastos, ingresos, impuestos y trámites con la Administración en una sola app.',
+    product: 'Producto', company: 'Empresa', legal: 'Legal',
+    links: { areas: 'Áreas de la app', features: 'Funciones', freelancers: 'Para autónomos', security: 'Seguridad', contact: 'Contacto', faq: 'Preguntas frecuentes' },
+    made: 'Hecho en España',
+  },
+  notFound: { code: 'ERROR 404 · PÁGINA NO ENCONTRADA', title: 'Esto no cuadra.', back: 'Volver al inicio' },
+  legal: {
+    eyebrow: 'Legal', updated: 'Última actualización: 12 de octubre de 2026', notice: null,
+    holder: { legalName: 'Titular', nif: 'NIF/CIF', address: 'Domicilio', registry: 'Datos registrales', email: 'Email' },
+    legal: [
+      { h: '1. Titular del sitio web', p: ['En cumplimiento del artículo 10 de la Ley 34/2002, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se informa de los datos del titular de {domain}:'], holder: true },
+      { h: '2. Objeto', p: ['Este sitio web informa sobre la aplicación UnderControl y permite solicitar información o acceso anticipado. El acceso al sitio es gratuito y atribuye la condición de usuario, que acepta este aviso legal.'] },
+      { h: '3. Propiedad intelectual e industrial', p: ['Los contenidos, marcas, logotipos, diseño y código de este sitio pertenecen a su titular o cuentan con licencia para su uso. Queda prohibida su reproducción, distribución o transformación sin autorización expresa.'] },
+      { h: '4. Responsabilidad', p: ['El titular no se hace responsable del mal uso de los contenidos ni de los daños derivados de interrupciones técnicas. Las cifras y pantallas mostradas son ejemplos ilustrativos y no constituyen asesoramiento fiscal. Los enlaces a sitios de terceros se ofrecen solo a título informativo.'] },
+      { h: '5. Legislación aplicable', p: ['Este aviso legal se rige por la legislación española. Para cualquier controversia, las partes se someten a los juzgados y tribunales que correspondan conforme a la normativa aplicable.'] },
+    ],
+    privacy: [
+      { p: ['Esta política explica cómo tratamos los datos personales que nos facilitas a través de {domain}, conforme al Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018 (LOPDGDD). El tratamiento de datos dentro de la app se rige por su propia política, que aceptarás al crear tu cuenta.'] },
+      { h: '1. Responsable del tratamiento', controller: true },
+      { h: '2. Qué datos tratamos y para qué', table: {
+        head: ['Origen', 'Datos', 'Finalidad', 'Base jurídica'],
+        rows: [
+          ['Formulario de contacto', 'Nombre, email, perfil, empresa y mensaje', 'Responder a tu solicitud y avisarte del acceso anticipado', 'Consentimiento (art. 6.1.a RGPD)'],
+          ['Email directo', 'Los que nos envíes', 'Atender tu consulta', 'Consentimiento / interés legítimo'],
+          ['Registros del servidor', 'Dirección IP, fecha y hora', 'Seguridad y funcionamiento del sitio', 'Interés legítimo (art. 6.1.f RGPD)'],
+        ] } },
+      { h: '3. Conservación', p: ['Conservamos los datos del formulario mientras dure la relación o hasta que pidas su supresión y, después, durante los plazos legales de prescripción. Los registros del servidor se conservan el tiempo mínimo que fija el proveedor de alojamiento.'] },
+      { h: '4. Destinatarios', p: ['No cedemos tus datos a terceros salvo obligación legal. El sitio se aloja en Hostinger, que actúa como encargado del tratamiento con las garantías del RGPD.'] },
+      { h: '5. Tus derechos', p: ['Puedes ejercer los derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad, y retirar tu consentimiento en cualquier momento, escribiendo a {email}. Si consideras que no hemos atendido bien tu solicitud, puedes reclamar ante la Agencia Española de Protección de Datos (www.aepd.es).'] },
+      { h: '6. Seguridad', p: ['Aplicamos medidas técnicas y organizativas adecuadas, como el cifrado HTTPS en todo el sitio.'] },
+    ],
+    cookies: [
+      { p: ['{domain} no utiliza cookies de análisis, publicidad ni de terceros. Las fuentes tipográficas se sirven desde nuestro propio servidor, sin conexiones a servicios externos.'] },
+      { h: 'Cookies técnicas', p: ['El servidor de alojamiento puede usar cookies estrictamente necesarias para la seguridad y el correcto funcionamiento del sitio. Estas cookies están exentas de consentimiento según el artículo 22.2 de la LSSI-CE.'] },
+      { h: 'Cambios', p: ['Si en el futuro incorporamos cookies que requieran consentimiento, actualizaremos esta política y te pediremos permiso antes de instalarlas.'] },
+      { more: ['Más información en la ', 'política de privacidad', '.'] },
+    ],
+  },
+}
