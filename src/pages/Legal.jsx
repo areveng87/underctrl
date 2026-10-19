@@ -14,7 +14,7 @@ function Section({ s }) {
       {s.p?.map((p, i) => <p key={i}><Fill text={p} /></p>)}
       {s.holder && (
         <ul>
-          {['legalName', 'nif', 'address', 'registry'].map((k) => <li key={k}>{holder[k]}: <Val v={c[k]} /></li>)}
+          {['legalName', 'nif', 'address'].map((k) => <li key={k}>{holder[k]}: <Val v={c[k]} /></li>)}
           <li>{holder.email}: <a href={`mailto:${c.email}`}>{c.email}</a></li>
         </ul>
       )}
